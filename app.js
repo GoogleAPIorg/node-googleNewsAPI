@@ -8,7 +8,7 @@ var express = require('express')
     app.set('views', __dirname + '/public');
 
    	app.use(express.bodyParser());
-
+    app.use(app.routes);
     routes(app);
 
     app.listen(3001);
