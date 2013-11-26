@@ -6,7 +6,7 @@ function Restapi () {
         http.get(url,function(hreq,hres){
             //hres.setEncoding('utf8');
             //var resNews = JSON.parse(hres);
-            //console.log(resNews);
+            console.log(hres);
             return res.render('index', {
                 title: 'Search Page',
                 data:hres
