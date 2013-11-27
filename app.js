@@ -3,8 +3,8 @@ var express = require('express')
   , cons = require('consolidate')
   , routes = require('./routes');  
      
-    app.engine('html', cons.swig);
-    app.set('view engine', 'html');
+    app.engine('html', require('ejs').renderFile);
+    app.set('view engine', 'ejs');
     app.set('views', __dirname + '/public');
 
    	app.use(express.bodyParser());

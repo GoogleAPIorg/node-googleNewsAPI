@@ -1,11 +1,13 @@
 {
-	"name": "newsapi",
-	"version": "0.0.1",
-	"description": "Fetching the googel API News using Nodejs",
-	"dependencies": {
-		"mime": "~1.2.7",
-		"express": ">=3.x",
-		"consolidate": "~0.9.1",
-		"swig": "~0.14.0"
-	}
+  "name": "newsapi",
+  "version": "0.0.1",
+  "description": "Fetching the googel API News using Nodejs",
+  "dependencies": {
+    "mime": "~1.2.7",
+    "express": ">=3.x",
+    "consolidate": "~0.9.1",
+    "swig": "~0.14.0",
+    "request": "~2.27.0",
+    "ejs": "~0.8.5"
+  }
 }
